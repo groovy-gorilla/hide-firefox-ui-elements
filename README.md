@@ -3,9 +3,13 @@
 This CSS file is designed to customize the Firefox browser's appearance by hiding the top bar (which includes the tab bar and address bar) and the bookmarks sidebar. By applying this CSS, you can achieve a cleaner and more minimalistic browsing interface. This can be particularly useful for users who prefer a distraction-free environment or want to maximize screen real estate.
 <br><br><br>
 <b>Features</b>
-<br><br><b>Hide Top Bar:</b> Removes the entire top bar, including the tab bar and address bar.<br>
-<b>Hide Bookmarks Sidebar:</b> Completely hides the bookmarks sidebar for a cleaner look.
-<br><br><br>
+<br><br>
+<b>Hide Top Bar:</b> Removes the entire top bar, including the tab bar and address bar.<br>
+<b>Hide Bookmarks Sidebar:</b> Completely hides the bookmarks sidebar for a cleaner look.<br>
+<b>Auto-Slide Top Bar:</b> The top bar slides out when you hover the mouse cursor near the top edge of the browser window.<br>
+<b>Auto-Slide Bookmarks Sidebar:</b> The bookmarks sidebar slides out when you hover the mouse cursor near the right edge of the browser window.<br>
+<b>Enable Sidebar Panel:</b> To make the bookmarks sidebar slide out, you need to enable the sidebar panel in the browser.<br>
+<br><br>
 <b>Usage Instructions</b>
 <br><br>
 <b>1. Locate Firefox Profile Folder:</b><br>
