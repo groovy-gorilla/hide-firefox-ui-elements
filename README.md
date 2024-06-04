@@ -37,9 +37,17 @@ This CSS file is designed to customize the Firefox browser's appearance by hidin
   z-index: 0;
 }
 
+body {
+  border-radius: 12px 12px 0px 0px !important;
+}
+
+#main-window[sizemode="maximized"]  body {
+  border-radius: 0px 0px 0px 0px !important;
+}
+
 #TabsToolbar {
   background-color: #222222FF !important;
-  border-radius: 0px 0px 0px 0px !important;
+  border-radius: 12px 12px 0px 0px !important;
 }
 
 .devtools-toolbox-bottom-iframe {
@@ -61,6 +69,7 @@ This CSS file is designed to customize the Firefox browser's appearance by hidin
   opacity: 1;
   transition: all 200ms;
   transition-delay: 100ms;
+  border-radius: 9px 9px 0px 0px !important;
 }
 
 #main-window[sizemode="maximized"] #navigator-toolbox {
@@ -68,6 +77,7 @@ This CSS file is designed to customize the Firefox browser's appearance by hidin
   margin-top: -84px;
   opacity: 1;
   transition: all 200ms;
+  border-radius: 0px 0px 0px 0px !important;
 }
  
 #main-window[sizemode="maximized"] #navigator-toolbox:hover {
@@ -76,23 +86,25 @@ This CSS file is designed to customize the Firefox browser's appearance by hidin
   opacity: 1;
   transition: all 200ms;
   transition-delay: 100ms;
+  border-radius: 0px 0px 0px 0px !important;
 }
 
 #sidebar-box {
   display: flex !important;
   flex-direction: column !important;
-  position: absolute !important;
+  position: fixed !important;
   max-width: 270px !important;
   min-width: 270px !important;
   width: 270px !important;
   left: auto !important;
-  right: -260px !important;
+  right: -250px !important;
   top: 0 !important;
   bottom: 0 !important;
   background-color: #303030FF !important;
   z-index: 1 !important;
   transition: all 200ms;
-  opacity: 0;
+  opacity: 0;  
+  border-radius: 0px 12px 0px 0px !important;
 }
 
 #sidebar-box:hover {
@@ -100,6 +112,7 @@ This CSS file is designed to customize the Firefox browser's appearance by hidin
   opacity: 1;
   transition: all 200ms;
   transition-delay: 100ms;
+  border-radius: 0px 12px 0px 0px !important;
 }
 
 #main-window[sizemode="maximized"] #sidebar-box {
@@ -116,6 +129,7 @@ This CSS file is designed to customize the Firefox browser's appearance by hidin
   bottom: 0 !important;
   flex-direction: column !important;
   z-index: 1 !important;
+  border-radius: 0px 0px 0px 0px !important;
 }
 
 #main-window[sizemode="maximized"] #sidebar-box:hover {
