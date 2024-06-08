@@ -169,8 +169,13 @@ body {
 }
 
 ```
-   
-<b>4. Restart Firefox:</b><br>
+
+<b>4. Enabled modifications in Firefox</b><br>
+   <ul>
+   <li>By default, <b>userChrome.css</b> modifications are disabled in Firefox. You need to make sure that on the <b>about:config</b> page in Firefox, the <b>toolkit.legacyUserProfileCustomizations.stylesheets</b> preference is set to true and then restart the browser.</li>
+   </ul>
+
+<b>5. Restart Firefox:</b><br>
    <ul>
    <li>Save the <b>userChrome.css</b> file and restart Firefox for the changes to take effect.<br><br><br>
    </ul>
